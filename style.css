@@ -26,7 +26,9 @@ section{
     background-color: aquamarine;
     float: left;
     width: 58%;
-    padding-top: 35px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 8px;
 }
 
 article{
@@ -38,16 +40,32 @@ article{
 aside{
     background-color: orange;
     float: left;
-    width: 39%;
+    width: 40%;
+    height: 270px;
     margin-left: 20px;
+    padding: 25px;
 }
 
 footer{
     padding: 25px;
     background-color: #fff;
+    clear: both;
+}
+
+/*this is so that the h1, h2, and h3 all show up on the one line*/
+h1, h2, h3{
+    display: inline;
+}
+
+/*adding this because the native h1 styling is being overwritten*/
+h1{
+    font-size: 2em;
 }
 
 .article-content{
     background-color: blanchedalmond;
+    padding: 10px;
 }
+
+
 
