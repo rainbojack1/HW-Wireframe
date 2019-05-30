@@ -1,1 +1,53 @@
 /*This is the stylesheet for the Wireframe homework*/
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+body{
+    background-color: #aaa;
+}
+
+header{
+    background-color: #fff;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav{
+    background-color: pink;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+section{
+    background-color: aquamarine;
+    float: left;
+    width: 58%;
+    padding-top: 35px;
+}
+
+article{
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+}
+
+aside{
+    background-color: orange;
+    float: left;
+    width: 39%;
+    margin-left: 20px;
+}
+
+footer{
+    padding: 25px;
+    background-color: #fff;
+}
+
+.article-content{
+    background-color: blanchedalmond;
+}
+
